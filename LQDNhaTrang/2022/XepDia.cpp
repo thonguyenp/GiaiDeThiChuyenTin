@@ -23,7 +23,7 @@ int TimSoDiaToiDa(int a[], int n) {
     int count = 0; // Số đĩa xếp lên nhau
     for (int i = 0; i < n; i++) //duyệt hết mảng độ bền các dĩa
     {
-        if (a[i] >= count) //nếu nếu
+        if (a[i] >= count) //nếu độ bền dĩa lớn hơn số dĩa hiện tại đang có trong chồng
         { 
             count++; // Thêm đĩa này vào cuối chồng
         } else {
