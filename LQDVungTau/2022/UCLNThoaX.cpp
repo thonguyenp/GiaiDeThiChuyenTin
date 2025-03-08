@@ -11,7 +11,7 @@ int main ()
 {
     long long a, b;
     scanf("%lld%lld",&a,&b);
-
+    //c1
     for (int i = 1; i <= (a > b) ? a : b; i++)
     {
         if (UCLN(a+i,b+i) == b-a)
