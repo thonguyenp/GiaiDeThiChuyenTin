@@ -32,6 +32,12 @@ int TongChuSo (int n)
 int main ()
 {
     int a,b;
-    // scanf("%d%d",&a,&b);
-    printf("%d",TongChuSo(76));
+    scanf("%d%d",&a,&b);
+    // printf("%d",TongChuSo(76));
+    int s = 0;
+    for (int i = a; i <= b; i++)
+    {
+        s += TongChuSo(i);
+    }
+    printf("%d",s);
 }
