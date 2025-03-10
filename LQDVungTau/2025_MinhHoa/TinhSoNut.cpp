@@ -29,6 +29,11 @@ int TongChuSo (int n)
     return n;
 }
 
+int DigitalRoot(int n) {
+    if (n == 0) return 0;
+    return 1 + (n - 1) % 9;
+}
+
 int main ()
 {
     int a,b;
@@ -37,7 +42,8 @@ int main ()
     int s = 0;
     for (int i = a; i <= b; i++)
     {
-        s += TongChuSo(i);
+        // s += TongChuSo(i);
+        s += DigitalRoot(i);
     }
     printf("%d",s);
 }
