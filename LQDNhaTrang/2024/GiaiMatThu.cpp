@@ -23,8 +23,9 @@ int containStar(char str[])
 int main()
 {
     int n;
-    char str[n];
     scanf("%d", &n);
+    
+    char str[n + 1];
     scanf("%s", &str);
 
     if (containStar(str))

@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.jade": "html",
+        "cmath": "cpp"
+    }
+}
