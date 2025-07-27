@@ -3,7 +3,7 @@
 
 /*
     Kiến thức cần nhớ:
-    - Công thức tính bình phương từ 1 -> m
+    - Công thức tính bình phương từ 1 -> m (chứng minh trong vở)
     - TÌm kiếm nhị phân:
         + Cách đặt left + (right - left) / 2 để tránh tràn số
         + Phương pháp tìm kiếm nhị phân
